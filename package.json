@@ -1,0 +1,39 @@
+{
+  "name": "alfred-dictionary",
+  "version": "1.0.3",
+  "description": "Alfred workflow for online dictionary and translation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "updateConfig.js",
+    "media",
+    "icon.png",
+    "info.plist",
+    "src"
+  ],
+  "type": "module",
+  "keywords": [
+    "alfred",
+    "translate",
+    "workflow",
+    "alfred-workflow",
+    "alfy",
+    "dictionary"
+  ],
+  "author": "Ed Chai",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^1.1.0",
+    "iconv-lite": "^0.6.3",
+    "node-html-parser": "^6.1.5"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.2",
+    "ava": "^5.2.0"
+  }
+}
