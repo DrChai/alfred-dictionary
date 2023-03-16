@@ -6,6 +6,8 @@ supports multiple online dictionaries(Google translation, Urban Dictionary...).
 Provides text-to-speech (TTS) functionality if available. 
 Also supports translating current words in cursor selection and viewing related definitions and example sentences.
 
+![Demo](/screenshots/general.gif "Demo")
+
 ## Features
 
 - Lookup words and phrases in multiple online dictionaries and translate engines, including 
